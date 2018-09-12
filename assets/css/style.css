@@ -225,5 +225,19 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 640px) {
+  .auth-image {
+    width: 100%;
+  }
 
+  #logo {
+    width: 100%;
+  }
+
+  .container {
+    margin: auto;
+  }
+
+  nav {
+    text-justify: center;
+  }
 }
