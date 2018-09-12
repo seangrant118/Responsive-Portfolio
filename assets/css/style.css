@@ -224,12 +224,20 @@ input[type=submit] {
   nav {
     margin-right: 50px;
   }
+
+  .work {
+    width: 45%;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .main-section {
     width: 100%;
     max-width: 768px;
+  }
+
+  .work {
+    width: 320px;
   }
 }
 
@@ -250,6 +258,10 @@ input[type=submit] {
     float: none;
     text-align: center;
     margin-right: 0px;
+  }
+
+  .work {
+    width: 100%;
   }
 
 }
