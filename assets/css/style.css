@@ -217,7 +217,13 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
+  .main-section {
+    max-width: 640px;
+  }
 
+  nav {
+    margin-right: 50px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -238,6 +244,9 @@ input[type=submit] {
   }
 
   nav {
-    text-justify: center;
+    float: none;
+    text-align: center;
+    margin-right: 0px;
   }
+
 }
